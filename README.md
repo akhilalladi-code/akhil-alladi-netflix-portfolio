@@ -4,8 +4,9 @@ A cinematic, Netflix-inspired portfolio for Akhil Alladi, graphic designer based
 
 ## Experience
 - Dark, cinematic visual direction with a bold featured introduction
-- Horizontally scrollable project collections
-- Direct links to published Behance project pages
+- Horizontally scrollable collection featuring all 24 projects from the supplied Behance profile capture
+- 24 dedicated project detail pages under `projects/<project-id>/index.html`
+- Each detail page includes the available Behance cover preview, project summary, and a link to its original Behance page
 - About, services and contact sections
 - Responsive layouts for desktop, tablet and mobile
 - Scroll reveal motion, sticky navigation and reduced-motion support
@@ -30,9 +31,9 @@ Then visit http://localhost:8000.
 4. The site will be available at https://akhilalladi-code.github.io/akhil-alladi-netflix-portfolio/.
 
 ## Content notes
-The featured work rail now links to 12 projects published on Akhil's Behance profile. Project cards use custom typographic artwork rather than unrelated stock images; selecting a card opens the corresponding Behance project. Atmospheric background photography remains decorative and is not presented as project work.
+The portfolio includes all 24 project entries found in the supplied saved Behance profile page. Each project has its own local GitHub Pages detail page. The saved page contains cover-preview images, not complete project galleries or original video files. At present, cover previews are displayed from Behance's image CDN; the HTML pages and project descriptions are stored in this repository. Full gallery assets and original video files were not included in the supplied page capture.
 
 ## Customize
-- Edit project cards and their Behance URLs in `index.html`.
-- Replace decorative background photography with approved brand or portfolio visuals when ready.
+- Edit the project list in `index.html` and the corresponding `projects/<project-id>/index.html` pages.
+- Replace remote Behance preview image URLs with repository-hosted assets if you later add the original image files.
 - Update the LinkedIn and GitHub links if your profile URLs change.
