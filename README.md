@@ -5,7 +5,7 @@ A cinematic, Netflix-inspired portfolio for Akhil Alladi, graphic designer based
 ## Experience
 - Dark, cinematic visual direction with a bold featured introduction
 - Horizontally scrollable project collections
-- Click-to-open project detail panels
+- Direct links to published Behance project pages
 - About, services and contact sections
 - Responsive layouts for desktop, tablet and mobile
 - Scroll reveal motion, sticky navigation and reduced-motion support
@@ -30,9 +30,9 @@ Then visit http://localhost:8000.
 4. The site will be available at https://akhilalladi-code.github.io/akhil-alladi-netflix-portfolio/.
 
 ## Content notes
-Project descriptions are portfolio summaries. Replace the sample photography with approved project artwork and add detailed case-study pages as those assets and project details are finalized. Conceptual and exploratory work should remain clearly identified as such.
+The featured work rail now links to 12 projects published on Akhil's Behance profile. Project cards use custom typographic artwork rather than unrelated stock images; selecting a card opens the corresponding Behance project. Atmospheric background photography remains decorative and is not presented as project work.
 
 ## Customize
-- Edit project cards and their detail text in `index.html`.
-- Replace the Unsplash image URLs with approved portfolio images.
+- Edit project cards and their Behance URLs in `index.html`.
+- Replace decorative background photography with approved brand or portfolio visuals when ready.
 - Update the LinkedIn and GitHub links if your profile URLs change.
