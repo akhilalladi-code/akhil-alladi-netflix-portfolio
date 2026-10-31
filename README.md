@@ -1,64 +1,54 @@
-# Akhil Alladi — Creative Portfolio Experiment
+# Akhil Alladi — Netflix-inspired Creative Portfolio
 
-A cinematic, Netflix-inspired presentation of Akhil Alladi's graphic design projects. This is a personal web-design experiment; the primary professional identity and work are graphic design.
+A dark, entertainment-platform-inspired portfolio that presents Akhil Alladi's graphic design and creative work through a project carousel and individual project pages.
 
-## What's included
+**Live site:** https://akhilalladi-code.github.io/akhil-alladi-netflix-portfolio/  
+**Repository:** https://github.com/akhilalladi-code/akhil-alladi-netflix-portfolio  
+**Primary portfolio:** https://akhilalladi-code.github.io/akhil-alladi-portfolio/
 
-- A responsive, dark cinematic portfolio interface.
-- A project collection based on 24 entries from the supplied saved Behance profile capture.
-- 24 dedicated project detail pages under `projects/<project-id>/index.html`.
-- Project summaries and available cover previews.
-- About, services and contact sections.
-- Responsive layouts, scroll effects and reduced-motion support.
-- SEO and social-sharing metadata.
+## Experience
 
-## Technology
+- Netflix-inspired dark interface and featured hero section.
+- Horizontal project rails and named project-detail URLs.
+- Individual HTML project pages with project descriptions and available source previews.
+- Responsive layouts and reduced-motion CSS support.
+- GitHub Pages deployment through GitHub Actions.
 
-This is a static website built with semantic HTML, CSS and vanilla JavaScript. It has no package dependencies or build step.
+## Project content and asset integrity
 
-## Run locally
+The repository contains individual project pages for the projects represented in the saved Behance profile capture. Several project pages use Behance-hosted source images or embedded media. Those external assets may depend on Behance availability and are not locally archived originals.
 
-Open `index.html` in a browser, or run:
+Some legacy numeric project directories remain alongside human-readable project slugs for compatibility with the earlier URL structure. Avoid deleting those legacy paths until redirects or inbound links have been checked.
+
+## Local preview
+
+This is a static HTML site. From the repository root, start any static file server, for example:
 
 ```bash
 python -m http.server 8000
 ```
 
-Then visit http://localhost:8000.
+Open http://localhost:8000.
 
-## Publish with GitHub Pages
+## Deployment
 
-This project is intended for GitHub Pages and GitHub Actions; it does not require Vercel.
+GitHub Pages is deployed by `.github/workflows/deploy.yml` after a lightweight HTML structure check. In repository settings, configure Pages to use GitHub Actions.
 
-1. Open **Settings → Pages**.
-2. Select **GitHub Actions** as the deployment source.
-3. Push changes to `main`.
-4. Check the Actions tab for the deployment result.
+## Manual quality checks
 
-Expected site URL:
+- Open the homepage and visit every project card.
+- Open a project URL directly, then refresh it.
+- Check image and video embeds when online.
+- Test the navigation and modal interactions.
+- Check at mobile widths and with keyboard navigation.
+- Review browser console/network errors for blocked external assets.
 
-https://akhilalladi-code.github.io/akhil-alladi-netflix-portfolio/
+The workflow checks HTML document structure; it does not replace browser-based functionality, accessibility, or responsive testing.
 
-## Project and asset provenance
+## Credits and permissions
 
-The 24 project entries were recovered from the supplied saved Behance profile capture. The capture provided project-page content and cover-preview images; it did **not** include the complete original image galleries or original video files.
-
-Consequently:
-- The project pages are stored in this GitHub repository.
-- Some cover previews currently reference Behance's image CDN; they are not yet repository-hosted originals.
-- Do not treat a cover preview as a complete case study or full project gallery.
-- Replace remote previews with approved original files in this repository when those source assets are available.
-- Verify project titles, descriptions, credits and publication permissions before making changes.
-
-Behance source profile: https://www.behance.net/akhil_alladi
-
-## Customization
-
-- Update the project collection in `index.html`.
-- Update the corresponding detail page in `projects/<project-id>/index.html`.
-- Store approved project imagery in a local `assets/` directory and reference those files with relative paths.
-- Keep each project title, slug, preview and detail page correctly matched.
+Project titles and source links are based on the supplied Behance portfolio material. Only publish original assets that you own or are authorized to share. Retain attribution and the original-project link where useful.
 
 ---
 
-This repository is a personal web-development experiment and complements, rather than replaces, the graphic design portfolio.
+© Akhil Alladi.
